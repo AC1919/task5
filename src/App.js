@@ -17,8 +17,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>Age Calculator</h2>
+      <h3>Enter the year</h3>
       <input onChange={(e) => inputChangeHandler(e.target.value)} />
       <div>
         {" "}
