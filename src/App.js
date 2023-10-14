@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 export default function App() {
-  var currentYear = 2021;
+  var currentYear = 2023;
   const [birthYear, setbirthYear] = useState(0);
   const [age, setAge] = useState(0);
 
